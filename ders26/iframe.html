@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        iframe{
+            border: 4px solid green;
+            height: 500px;
+            width: 500px;
+            background-color:rgb(226, 216, 216);
+        }
+    li a{
+            padding: 20px;
+            background-color: cadetblue;
+            border: 2px solid black;
+            color: white;
+            margin: 10px;
+        }
+        ul{
+            display: flex;
+        }
+        li{
+          list-style-type: none;
+          margin: 10px;  
+        }
+body{
+    overflow: auto;
+}
+
+
+        /*Muellime bes men niye li-lere list style tipy yazanda onda nokteler yox olur halbuki li-nin icinde a-dir yazi deyil*/
+       /* a teqleri niye margin verende olmur*/
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <a target="first-iframe" href="./dell.html">Dell</a>
+        </li>
+        <li>
+            <a target="first-iframe" href="./hp.html">Hp</a>
+        </li>
+    </ul>
+    <iframe src="" name="first-iframe"></iframe>
+</body>
+</html>

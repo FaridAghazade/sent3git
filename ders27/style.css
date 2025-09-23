@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+
+.div1 {
+    display: flex;
+}
+
+.unordered {
+    display: flex;
+    width: 1000px;
+    background-color: blue;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.spanes-1 {
+    color: orange;
+
+    padding: 10px;
+    background-color: aqua;
+}
+
+.spanes-2 {
+    background-color: orangered;
+    color: antiquewhite;
+    padding: 10px;
+}
+
+.spanes-1,
+.spanes-2,
+.header {
+    /* Muellime men niye burda margini deyishende onda o ul de ayid olur halbuki men ul secmemishem,hem de ki o yuxarda yazilan o regemi spanin icine saliram ve ona color verirem olmur yenede bir deki sehmet olmasa mene positionu oyredersiniz*/
+    margin: 20px;
+
+}
+
+.container-1 img {
+    width: 1500px;
+    height: 400px;
+}
+
+.container-1 {
+    position: relative
+}
+
+.container-2 {
+
+    position: absolute;
+    background-color: rgba(173, 216, 230, 0.916);
+    width: 400px;
+    top: 30px;
+    right: 1050px;
+    height: 300px;
+}
+
+.container-2 button {
+    background-color: orange;
+    margin: 10px;
+    padding: 10px;
+    border: 0px;
+}
+
+.header-3 {
+    font-size: larger;
+    color: rgb(110, 110, 110);
+    text-align: center;
+}
+
+.paragraf {
+    color: lightgray;
+}
+.list-1{
+    color: rgb(112, 110, 110);
+}
+.list-2{
+    color: lightgray;
+}

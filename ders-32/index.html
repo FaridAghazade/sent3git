@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form style=   " height: 1200px; ">         <!-- muellime bes men niye burda forma height verende onda body-nin height boyuyur -->
+        <fieldset>
+            <h3 style="text-align: center;">Registration Form</h3>
+            <label for="name">First Name:</label>
+            <input type="text" id="name"name="name" placeholder="Enter First Name"><br><br>
+            <label for="lastName">Last Name:</label>
+            <input type="text"id="lastName"name="lastName pl"placeholder="Enter Last Name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text"placeholder="Enter Last Name" id="email"name="email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password"id="password"name="password"><br><br>
+
+         <!--Muellime bes men bu labelin for-una ne yazim hemde ki neye ayi olsun-->   <label for="">Gender:</label>
+         <label for="radio">Male</label>
+         <input type="radio" value="male" name="radio" id="radio">
+         <label for="radio2">Female</label>
+         <input type="radio"value="female" name="radio" id="radio2">
+         <label for="radio3">Other</label>
+         <input type="radio"  value="other" name="radio" id="radio3"><br><br>
+         <label for="number">Age:</label>
+         <input type="number" name="number" id="number"><br><br>
+         <label for="">Preferences:</label>
+         <label for="check1">Acrylic Painting</label>
+         <input type="checkbox" value="ap" name="check" id="check1">
+         <label for="check2">Oil Painting</label>
+
+         <input type="checkbox" value="op" name="check" id="check2">
+         <label for="check3">Water Color Painting</label>
+         <input type="checkbox"value="wcp" name="check" id="check3"><br><br>
+
+         <label for="">Occupation</label>
+         <select name="select" id="select">
+            <option value="student">student</option>
+            <option value="working">working</option>
+            
+         </select>
+         <br><br>
+
+         <label for="">Bio:</label><br>
+
+         <textarea name="" id="" cols="50"rows="10" style="resize: none;"></textarea>
+
+
+        </fieldset>
+    </form>
+</body>
+</html>

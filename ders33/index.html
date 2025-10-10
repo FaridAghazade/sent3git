@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+label{
+    color: rgb(43, 166, 43);
+}
+button{
+    background-color: green;
+}
+span label{
+    color: gray;
+}
+form{
+    width:800px ;
+    height: 600px;
+    background-color:gray;
+    border: 2px solid black;
+    position: relative;
+    top: 50px;
+    left: 450px;
+
+}
+div{
+    background-color: rgba(239, 238, 238, 0.979);
+    padding: 10px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+
+}
+body{
+    background-color: lightcoral;
+}
+
+</style>
+    
+</head>
+
+<body>
+    <form action="">
+    <h1 >Creat an acount</h1>
+    <div>
+        <div></div>
+    <label for="name">First name*</label>
+    <input type="text" name="name" id="name" placeholder="enter your first name">
+    
+    <label for="name2">Last name</label>
+    <input type="text" name="name2" id="name2" placeholder="enter your last name">
+<br><br>
+   
+    <label for="name3">Email*</label>
+    <input type="email" name="name3" id="name3" placeholder="enter your email"><br><br>
+
+    <label for="name4">Password*</label>
+    <input type="password" name="name4" id="name4" placeholder="enter your password">
+
+    <label for="">Confirm Password*</label>
+    <input type="password" name="name5" id="name5" placeholder="enter your password again">
+<br><br>
+
+    <label for="">Gender:</label>
+<span>
+    <input type="radio" name="name7" id="name7" value="male">
+    <label for="name6">Male</label>
+
+    <input type="radio" name="name7" id="name7" value="female">
+    <label for="name6">Female</label>
+</span>
+    <label for="">Hobbies:</label>
+<span>
+    <input type="checkbox" name="name8" id="name8" value="music">
+    <label for="name8">Music</label>
+
+    <input type="checkbox" name="name8" id="name8" value="sports">
+    <label for="name8">Sports</label>
+
+    <input type="checkbox" name="name8" id="name8" value="travel">
+    <label for="name8">Travel</label>
+
+    <input type="checkbox" name="name8" id="name8" value="movies">
+    <label for="name8">movies</label><br><br>
+    </span>
+    
+    
+
+<label for="name10">Sorce of income</label>
+    <select name="name10" id="name10">
+        <option value="emloyed">Employed</option>
+        <option value="good">good</option>
+        <option value="very good">very good</option>
+    </select>
+    <label for="range">income</label>
+    <input type="range"name="range"id="range"min="0"max="100"step="5" ><button>20K</button><br><br>
+    
+    <label  for="range11">Upload Profile Picture</label>
+    <input type="file" name="range11" id="range11">
+    
+    <label for="name12">Age</label>
+    <input type="number" name="name12" id="name12"><br><br><br>
+    <label for="">Bio</label><br>
+    <textarea name="textArea" id="textArea"cols="60"rows="10"></textarea>
+</div>
+</form>
+
+</body>
+
+</html>

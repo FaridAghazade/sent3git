@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #input1{
+           background-color: red; 
+        }
+        #input2{
+background-color: blue;
+        }
+        #input3{
+background-color: aqua;
+        }
+        #input4{
+background-color: green;
+        }
+        #input5{
+background-color: lightcoral;
+        }
+        #input6{
+background-color: burlywood;
+        }
+        #input7{
+background-color: coral;
+        }
+        #input8{
+background-color: darkgoldenrod;
+        }
+        #input9{
+background-color: lawngreen;
+        }
+        #input10{
+background-color: orange;
+        }
+        #input11{
+background-color: orchid;
+        }
+        #input12{
+
+        }
+        #input13{
+            background-color:greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <form autocomplete="on">
+    <fieldset>
+        <legend>required</legend>
+        <input type="text" name="input1" id="input1" required>
+    </fieldset><br><br>
+    <fieldset>
+        <legend>step</legend>
+    <input type="range" name="input2" id="input2" step="5">
+    </fieldset><br><br>
+    <fieldset>
+        <legend>value</legend>
+        <input type="text" name="input3" id="input3" value="value">
+    </fieldset><br><br>
+    <fieldset>
+        <legend>size</legend>
+        <input type="password" name="input4" id="input4"size="5"></input>
+    </fieldset><br><br>
+<fieldset>
+        <legend>checked</legend>
+        <input type="checkbox" name="input5" id="input5"checked >
+        <input type="checkbox" name="input5" id="input6" >
+        <input type="checkbox" name="input5" id="input7"checked >
+
+    </fieldset><br><br>
+<fieldset>
+        <legend>readonly</legend>
+        <input type="text" name="input6" id="input8" value="readonly">
+    </fieldset><br><br>
+    <fieldset>
+        <legend>min and max</legend>
+        <input type="datetime-local" name="input7" id="input9" min="2024-06-07T01:00"max="2025-06-07T12:00"required>
+    </fieldset><br><br>
+    <fieldset>
+        <legend>minlength and maxlenght</legend>
+        <input type="text" name="input8" id="input10" minlength="3"maxlength="20">
+    </fieldset><br><br>
+    <fieldset>
+        <legend>disabled</legend>
+        <input type="number" name="input9" id="input11" disabled>
+    </fieldset><br><br>
+   
+    <fieldset>
+        <legend>placeholder</legend>
+        <input type="text" name="input10" id="input12"placeholder="burda placeholder yazilib " >
+    </fieldset><br><br>
+    <fieldset>
+        <legend>height and width</legend>
+        <input type="number" name="input11" id="input13">
+    </fieldset><br><br>
+<fieldset style="background-color: cadetblue;font-weight: 700;">
+ <p>formun icinde auto complete var</p>
+
+</fieldset>
+   <br><br><br><br>
+   <input type="submit" value="submit" style="margin-left: 300px; font-weight: 900;width: 100px;height: 100px;"><!--men buna height verende o niye oshaqi dogru height-ni eliyir-->
+</form>
+</body>
+</html>

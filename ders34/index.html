@@ -10,6 +10,7 @@
         }
         #input2{
 background-color: blue;
+/* -webkit-appearance: none; */
         }
         #input3{
 background-color: aqua;
@@ -19,6 +20,8 @@ background-color: green;
         }
         #input5{
 background-color: lightcoral;
+accent-color: green;
+
         }
         #input6{
 background-color: burlywood;
@@ -38,11 +41,10 @@ background-color: orange;
         #input11{
 background-color: orchid;
         }
-        #input12{
-
-        }
         #input13{
             background-color:greenyellow;
+            width: 350px;
+            height: 150px;
         }
     </style>
 </head>
@@ -73,7 +75,7 @@ background-color: orchid;
     </fieldset><br><br>
 <fieldset>
         <legend>readonly</legend>
-        <input type="text" name="input6" id="input8" value="readonly">
+        <input type="text" name="input6" id="input8" value="readonly"readonly>
     </fieldset><br><br>
     <fieldset>
         <legend>min and max</legend>
@@ -100,8 +102,10 @@ background-color: orchid;
  <p>formun icinde auto complete var</p>
 
 </fieldset>
-   <br><br><br><br>
-   <input type="submit" value="submit" style="margin-left: 300px; font-weight: 900;width: 100px;height: 100px;"><!--men buna height verende o niye oshaqi dogru height-ni eliyir-->
+   <input type="submit" value="submit" style="margin-left: 300px; font-weight: 900;width: 100px;height: 150px;"><!--men buna height verende o niye oshaqi dogru height-ni eliyir
+   -->
+   
+
 </form>
 </body>
 </html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            /* margin: 20px;men hamisina margin verende alinmir */
+            padding: 0;
+            box-sizing: border-box;
+          
+        }
+        .header{
+            width: 500px;
+            height: 350px;
+          margin: 40px;
+          border: 2px solid green;
+            
+        }
+        h1{
+            color: white;
+            background-color: blue;
+            height: 40px;
+            margin-bottom: 20px;
+            font-family: sans-serif;
+        }
+        #formation{
+            width: 100%;
+        }
+        span{
+            color: purple;
+        }
+        input[type=text]{
+            margin: 20px;
+            width: 90%;
+             height: 30px;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            background-color:  rgb(221, 219, 219);
+
+        }
+        label{
+            margin: 20px;
+            font-size: larger;
+
+        }
+        input[type=password]{
+            margin: 20px;
+            width: 90%;
+            height: 30px;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            background-color: rgb(221, 219, 219);
+        }
+#submit{
+ margin: 20px;
+            width: 90%;
+            height: 50px;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            background-color:blue;
+            color: white;
+            font-size: larger;
+
+}
+ .span1{
+   float: left;
+}
+.span2{
+    float: right;
+    color: blue;
+}
+
+
+
+    </style>
+</head>
+<body>
+<div class="header">
+    <h1>Login</h1>
+     <form id="formation">
+        
+        <label for="input1">Username<span>*</span></label><br>
+        <input type="text"id="input1"name="input1"><br>
+        <label for="input2">password<span>*</span></label><br>
+        <input type="password" name="input2" id="input2" ><br>
+        <input type="submit" value="Login" id="submit">
+    </form>
+    <div class="div-2"><span class="span1">lorem 2325</span><span class="span2" > forgot password</span></div>
+    
+</div>
+   
+</body>
+</html>

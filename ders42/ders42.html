@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar,
+        ul,
+        .header {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar {
+           position: fixed;
+            width: 100%;
+            background-color: white;
+        }
+        
+
+        .unList {
+            list-style-type: none;
+
+        }
+
+        .unList li {
+            margin: 40px;
+            color: rgb(173, 171, 171);
+        }
+
+        .unList details {
+            list-style-position: inside;
+        }
+
+        .header i {
+            color: white;
+            background-color: blue;
+            font-size: 40px;
+            padding: 10px;
+            border-radius: 7px;
+            margin: 10px;
+
+
+        }
+
+        .a-taq {
+            text-decoration-line: none;
+            color: white;
+            background-color: lightblue;
+            padding: 10px;
+            border-radius: 5px;
+            margin-right: 100px;
+        }
+
+
+
+
+        main {
+            width: 100%;
+
+
+
+        }
+
+        .sec h1 {
+            position: relative;
+            top: 100px;
+            color: white;
+
+        }
+
+        .sec p {
+            position: relative;
+            top: 100px;
+
+        }
+
+        .sec span {
+            font-weight: 300;
+        }
+
+        .sec {
+            height: 500px;
+            background-image: url(https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg);
+            padding: 60px;
+        }
+
+        .bigContainer {
+            width: 100%;
+            height: 100px;
+            background-color: white;
+
+
+        }
+
+        .sec .a-taq {
+            position: relative;
+            top: 130px;
+            border: 2px solid white;
+        }
+
+        .div-1 {
+            width: 350px;
+            background-color: lightblue;
+            text-align: justify;
+            color: white;
+        }
+        .div-1 i{
+            font-size: 50px;
+            text-align: center;
+            margin: 10px;
+        }
+        .div-1 button{
+            margin: 10px;
+
+        }
+        .div-1 h1{
+            margin-bottom: 5px;
+
+        }
+
+        .sec-2{
+            background-color: lightblue;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .a-taq{
+            border: 2px solid white;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="bigContainer">
+        <nav class="navbar">
+            <div class="header">
+                <i class="fa-solid fa-house-medical"></i>
+                <h1>Docmed</h1>
+            </div>
+
+            <ul class="unList">
+                <li>
+                    Home
+
+                </li>
+                <li>
+                    Department
+                </li>
+                <li>
+                    <details>
+
+                        <p>here are our blog</p>
+                    </details>
+
+                </li>
+                <li>
+
+                    <details>
+                        <p>here are our blog</p>
+                    </details>
+                </li>
+                <li>
+                    Doctors
+
+                </li>
+                <li>
+                    Contact
+                </li>
+
+            </ul>
+            <a href="#" class="a-taq">Make an Appointment</a>
+        </nav>
+    </div>
+
+    <main>
+        <section class="sec">
+            <h1>Health Care <br> <span>For Hole Family</span></h1><br>
+            <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, expedita. Dolore ut
+                minus obcaecati laborum. Quibusdam delectus, <br> explicabo quas saepe sapiente, quod reiciendis
+                dignissimos laudantium aperiam dolor natus perspiciatis? Quod!</p>
+            <button class="a-taq">Check Our Services</button>
+
+
+        </section>
+        <section class="sec-2">
+
+            <div class="div-1">
+                <i class="fa-solid fa-briefcase-medical"></i>
+                <h1>Hospitality</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsam deleniti aliquam. Incidunt,
+                    neque nobis. Eum deserunt <br> praesentium saepe itaque autem, tempore possimus tenetur fuga
+                    adipisci accusamus, quidem expedita laudantium.</p>
+                <button class="a-taq">Apply For A Bed</button>
+
+            </div>
+            <div style="background-color: rgb(140, 140, 221)" class="div-1">
+                <i class="fa-solid fa-phone-flip"></i>
+                <h1>Hospitality</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsam deleniti aliquam. Incidunt,
+                    neque nobis. Eum deserunt <br> praesentium saepe itaque autem, tempore possimus tenetur fuga
+                    adipisci accusamus, quidem expedita laudantium.</p>
+                <button class="a-taq">Apply For A Bed</button>
+            </div>
+            <div class="div-1">
+                <i class="fa-solid fa-briefcase-medical"></i>
+                <h1>Hospitality</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsam deleniti aliquam. Incidunt,
+                    neque nobis. Eum deserunt <br> praesentium saepe itaque autem, tempore possimus tenetur fuga
+                    adipisci accusamus, quidem expedita laudantium.</p>
+                <button class="a-taq">Apply For A Bed</button>
+            </div>
+        </section>
+
+    </main>
+    <script src="https://kit.fontawesome.com/943d87bd3c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

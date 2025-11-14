@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .navBar {
+            margin-bottom: 20px;
+        }
+
+        .container span {
+            font-weight: 700;
+            font-size: 25px;
+            color: black;
+            text-transform: uppercase;
+
+        }
+
+        .container h1 {
+            margin: 5px;
+
+            font-weight: 400;
+            color: gray;
+            text-transform: uppercase;
+            font-size: 25px;
+
+        }
+
+        .container i {
+            font-size: 30px;
+            color: lightblue;
+            margin: 10px;
+
+
+        }
+
+        .navBar,
+        ul,
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            font-weight: 600;
+            margin: 20px;
+
+        }
+
+        .dContainer {
+            display: none;
+
+        }
+
+        .dropdown:hover {
+            background-color: rgb(68, 120, 153);
+        }
+
+        .dropdown p {
+            padding: 10px;
+
+        }
+
+
+        .dropdown:hover .dContainer {
+            display: block;
+        }
+
+        .dContainer p:hover {
+            background-color: purple;
+
+        }
+
+        .sec-1 {
+            height: 500px;
+            background-image: url(https://www.persianbell.com/wp-content/uploads/2023/06/header-blog-1024x460.jpg);
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+        }
+
+        .paraqraf-1 {
+            color: lightgray;
+        }
+
+        .main {
+            position: relative;
+            right: 10%;
+            top: 10%;
+            text-transform: uppercase;
+
+        }
+        .sec-2{
+            display: flex;
+        }
+        .sec-2 div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .div-1{
+            height: 150px;
+            width: 270px;
+            background-color: darkblue;
+            text-align: center;
+            color: white;
+            
+        }
+        .div-2{
+             height: 150px;
+            width: 270px;
+            background-color: rgb(45, 202, 255);
+            text-align: center;
+            color: white;
+
+        }
+        .div-3{
+             height: 150px;
+            width: 281px;
+            background-color: red;
+            text-align: center;
+            color: white;
+
+        }
+        .div-4{
+             height: 150px;
+            width: 250px;
+            background-color: tomato;
+            text-align: center;
+            color: white;
+
+        }
+        .div-5{
+             height: 150px;
+            width: 200px;
+            background-color: goldenrod;
+            text-align: center;
+            color: white;
+
+        }
+        .div-6{
+             height: 150px;
+            width: 250px;
+            background-color: rgb(238, 189, 29);
+            text-align: center;
+            color: white;
+
+        }
+        .imageGallery{
+            width: 300px;
+            height: 425px;
+            border: 2px solid gray;
+            padding: 10px;
+        }
+       
+        
+        .imageGallery i{
+            position: relative;
+            bottom: 30px;
+            left: 130px;
+            background-color: orange;
+            padding: 20px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .sec-3{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navBar">
+            <div class="container">
+                <i class="fa-solid fa-book-open"></i>
+                <h1><span>lms</span> education</h1>
+            </div>
+            <ul>
+                <li>
+                    Home
+                </li>
+                <li>
+                    Template tour
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <p>Drop down menu</p>
+                        <div class="dContainer">
+                            <p>Lorem.</p>
+                            <p>Lorem.</p>
+                            <p>Lorem.</p>
+                        </div>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <p>Drop down menu</p>
+                        <div class="dContainer">
+                            <p>Lorem.</p>
+                            <p>Lorem.</p>
+                            <p>Lorem.</p>
+                        </div>
+                    </div>
+
+                </li>
+                <li>
+                    Courses
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="sec-1">
+            <div class="main">
+                <h1 style="color: gray; margin: 20px;"><span style="color: rgb(92, 186, 218);">lms</span>education</h1>
+                <p class="paraqraf-1">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+
+        </section>
+        <section class="sec-2">
+            <div class="div-1">
+                <p>Courses</p>
+
+            </div>
+            <div class="div-2">
+                Lorem.
+
+            </div>
+            <div class="div-3">
+                Lorem.
+            </div>
+            <div class="div-4">
+                Lorem.
+            </div>
+            <div class="div-5">
+                Lorem.
+            </div>
+            <div class="div-6">
+                Lorem.
+            </div>
+
+        </section>
+        <h1 style="text-align: center;margin: 20px;border-bottom: 2px;">Courses</h1>
+        <section class="sec-3">
+            
+
+            <div class="imageGallery">
+                <img width="100%" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm0aQRjz0qEEeKeMT7uCG88noN1XTa8amEspfnEzgtBwGBuHlDSs0fI2a2q09E6dq_AZ6BnmZ0QyehyphenhyphenG1G8ubW9r0UPhxsiYIHh3Kt86x3hG3I8kxBc0lE7fMtyVn1V6eJGHiok_Z2JWQf/s1600/lvyou-xibanyayu.jpgw65" alt="">
+                <i class="fa-solid fa-user"></i>
+                <p style="color: lightskyblue;margin-bottom: 10px;text-align: center;">Lorem ipsum/dolor sit.</p> 
+                <p style="text-align: justify;color: lightgray;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis debitis vel blanditiis mollitia delectus, fugit tempore, at nesciunt magni id, distinctio dolorum voluptates consectetur beatae maxime esse cum. Illo, quidem!</p>
+            <span style="color: gray;;margin-left:200px;/*margin niye verende alinmir*/">2026-06-07</span>
+            </div>
+            <div class="imageGallery">
+                <img width="100%" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm0aQRjz0qEEeKeMT7uCG88noN1XTa8amEspfnEzgtBwGBuHlDSs0fI2a2q09E6dq_AZ6BnmZ0QyehyphenhyphenG1G8ubW9r0UPhxsiYIHh3Kt86x3hG3I8kxBc0lE7fMtyVn1V6eJGHiok_Z2JWQf/s1600/lvyou-xibanyayu.jpgw65" alt="">
+                <i class="fa-solid fa-user"></i>
+                <p style="color: lightskyblue;margin-bottom: 10px;text-align: center;">Lorem ipsum/dolor sit.</p> 
+                <p style="text-align: justify;color: lightgray;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis debitis vel blanditiis mollitia delectus, fugit tempore, at nesciunt magni id, distinctio dolorum voluptates consectetur beatae maxime esse cum. Illo, quidem!</p>
+            <span style="color: gray;margin-left:200px;">2026-06-07</span>
+            </div>
+            <div class="imageGallery">
+                <img width="100%" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm0aQRjz0qEEeKeMT7uCG88noN1XTa8amEspfnEzgtBwGBuHlDSs0fI2a2q09E6dq_AZ6BnmZ0QyehyphenhyphenG1G8ubW9r0UPhxsiYIHh3Kt86x3hG3I8kxBc0lE7fMtyVn1V6eJGHiok_Z2JWQf/s1600/lvyou-xibanyayu.jpgw65" alt="">
+                <i class="fa-solid fa-user"></i>
+                <p style="color: lightskyblue;margin-bottom: 10px;text-align: center;">Lorem ipsum/dolor sit.</p> 
+                <p style="text-align: justify;color: lightgray;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis debitis vel blanditiis mollitia delectus, fugit tempore, at nesciunt magni id, distinctio dolorum voluptates consectetur beatae maxime esse cum. Illo, quidem!</p>
+            <span style="color: gray;margin-left: 200px;">2026-06-07</span>
+            </div>
+
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/943d87bd3c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

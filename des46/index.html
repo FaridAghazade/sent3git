@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: lightskyblue;
+        }
+
+        header {
+            height: 128px;
+
+        }
+
+        ul {
+            margin: 20px;
+        }
+
+        .navbar,
+        ul,
+        .container {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+        .navbar {
+            width: 100vw;
+            position: fixed;
+            background-color: white;
+
+        }
+
+        li {
+            list-style-type: none;
+            margin: 20px;
+
+        }
+
+
+        .divation h2 {
+
+            text-transform: uppercase;
+
+
+        }
+
+        .drop {
+            width: 100%;
+            background-color: gray;
+            display: none;
+
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            
+        }
+
+
+        .container i {
+            margin: 10px;
+            color: blue;
+            font-size: 50px;
+        }
+
+        .container h1 {
+            text-transform: uppercase;
+        }
+
+        .divation {
+            background-color: wheat;
+            position: relative;
+        }
+
+        .divation:hover .drop {
+            display: block;
+            flex-direction: column;
+            position: absolute;
+            align-items: center;
+           
+
+
+        }
+
+        .drop a:hover {
+            background-color: pink;
+            padding: 10px;
+        }
+
+        .sec-1 img {
+            border-radius: 10px;
+            margin-left: 100px;
+
+
+
+        }
+
+        .con div {
+            width: 400px;
+            margin-left: 30px;
+            text-align: justify;
+        }
+
+        .sec-1 p {
+            color: lightgray;
+
+        }
+
+        .con {
+            display: flex;
+            
+        }
+
+        .but {
+            padding: 15px 20px;
+            background-color: blue;
+            color: white;
+            border: 0;
+            position: relative;
+            top: 50px;
+            left: 600px;
+        }
+
+        .sec-1 {
+            margin-bottom: 100px;
+        }
+
+        .main-2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+
+        .sec-2 h1 {
+            text-align: center;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            font-size: 25px;
+        }
+
+        .sec-2 span {
+            border-bottom: 5px solid red;
+        }
+
+        .sec-2 p {
+            text-align: center;
+            color: gray;
+            margin: 30px;
+
+        }
+
+        .di {
+            width: 370px;
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+
+
+        }
+
+        .di i {
+            font-size: 40px;
+            margin: 40px 0;
+        }
+
+        .di h2 {
+            text-transform: capitalize;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="head">
+
+        <nav class="navbar">
+            <div class="container">
+                <i class="fa-solid fa-shrimp"></i>
+                <h1>dfolio</h1>
+
+            </div>
+            <ul class="unlist">
+                <li>
+                    <div class="divation">
+
+                        <h2>Home</h2>
+                        <div class="drop">
+                            <p href="index.html">Home</p>
+                            <a href="blog.html">Blog</a>
+                            <a href="service.html">Service</a>
+                            <a href="photo.html">Potofolio</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    About
+
+                </li>
+                <li>
+                    <div class="divation">
+                        <h2>service</h2>
+                        <div class="drop">
+
+                            <a href="index.html">Home</a>
+                            <a href="blog.html">Blog</a>
+                            <a href="service.html">Service</a>
+                            <a href="photo.html">Potofolio</a>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="divation">
+                        <h2>potfolio</h2>
+                        <div class="drop">
+
+                           <a href="index.html">Home</a>
+                            <a href="blog.html">Blog</a>
+                            <a href="service.html">Service</a>
+                            <a href="photo.html">Potofolio</a>
+                        </div>
+                    </div>
+
+                </li>
+                <li>
+
+                    <div class="divation">
+                        <h2>blog</h2>
+                        <div class="drop">
+<a href="index.html">Home</a>
+                            <a href="blog.html">Blog</a>
+                            <a href="service.html">Service</a>
+                            <a href="photo.html">Potofolio</a>
+                        </div>
+                    </div>
+                </li>
+
+                </li>
+
+                <li>
+                    contact
+                </li>
+
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main class="main">
+        <section class="sec-1">
+
+            <div class="con">
+                <img src="https://www.backherms.de/pic/14_office-620817_1920.jpg" alt="" width="350px" height="200px">
+                <div>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, voluptatibus laudantium,
+                        blanditiis harum tenetur aperiam unde molestias voluptatum iure quas itaque maxime? Cum ea minus
+                        rerum dolore qui modi dicta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                        dolorum sequi velit dolorem quis pariatur accusantium nisi, nobis nulla, a eum dolores ad, ea
+                        maxime dolor earum culpa voluptatum repellendus.</p>
+                </div>
+            </div>
+            <button class="but">contact us</button>
+        </section>
+        <section class="sec-2">
+            <h1>our <span>Serv</span>ices</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure qui commodi dolore fuga quas?</p>
+            <div class="main-2">
+
+                <div class="di">
+                    <i class="fa-regular fa-envelope"></i>
+                    <h2>email Marketing</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa officia et voluptatem magnam eos
+                        ullam qui nihil similique reiciendis veniam quibusdam ipsum deleniti dolorem laborum vero, error
+                        quod ducimus impedit!</p>
+                </div>
+                <div class="di">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa officia et voluptatem magnam eos
+                        ullam qui nihil similique reiciendis veniam quibusdam ipsum deleniti dolorem laborum vero, error
+                        quod ducimus impedit!</p>
+                </div>
+                <div class="di">
+                    <i class="fa-brands fa-adversal"></i>
+                    <h2>facebook marketing</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa officia et voluptatem magnam eos
+                        ullam qui nihil similique reiciendis veniam quibusdam ipsum deleniti dolorem laborum vero, error
+                        quod ducimus impedit!</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="https://kit.fontawesome.com/943d87bd3c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

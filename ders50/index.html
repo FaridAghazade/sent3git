@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        nav,
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: darkblue;
+        }
+
+        li {
+            list-style-type: none;
+            color: white;
+            text-transform: capitalize;
+            padding: 25px;
+        }
+
+        nav h1,
+        span {
+
+            color: white;
+            text-transform: capitalize;
+        }
+
+        nav h1 {
+            margin: 50px;
+        }
+
+        button {
+            padding: 10px 25px;
+            background-color: white;
+            border: none;
+            border-radius: 20px;
+        }
+
+        .sec-1 {
+            display: flex;
+            background-color: darkblue;
+            align-items: start;
+            justify-content: space-between;
+            padding: 40px;
+
+        }
+
+        .sec-1 h1 {
+            text-transform: capitalize;
+            font-family: sans-serif;
+            color: white;
+         
+        }
+        .con p{
+            color: white;
+            margin: 40px 0;
+        }
+
+
+        .con {
+            width: 800px;
+           
+        }
+
+        .sec-1 img {
+            width: 500px;
+            border-radius: 40px;
+        }
+        .sec-2{
+            background-color: rgb(226, 225, 225);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .container{
+           
+            width: 350px;
+            box-shadow: 3px 3px 30px darkgray;
+            
+        }
+        .container img{
+            width: 100%;
+          
+        }
+        .but{
+            background-color: blue;
+            color: white;
+            margin: 40px 0 ;
+        }
+        .inner{
+            padding: 20px;
+            background-color: white;
+        }
+        .inner h3{
+            margin: 20px 0;
+            font-family: sans-serif;
+
+        }
+        .container:hover{
+            scale: 1.08;
+        }
+        li:hover{
+            background-color: lightgray;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>action<span> plan</span></h1>
+        <ul>
+            <li>home</li>
+            <li>our services</li>
+            <li>about us</li>
+            <li>portfolio</li>
+            <li>our blog</li>
+            <li>
+                <button>contact us</button>
+            </li>
+        </ul>
+    </nav>
+    <section class="sec-1">
+        <div class="con">
+            <h1>our blog</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error laudantium ab, atque cupiditate molestiae
+                reprehenderit, fugiat vel quas enim maiores repudiandae fuga eaque, ad fugit. Officia exercitationem in
+                laudantium quos.</p>
+            <button style="margin: 20px 0;">View Blog Posts</button>
+        </div>
+        <img src="https://www.ime-seminare.de/wp-content/uploads/das-perfekte-team_google_840x600.jpg" alt="">
+
+    </section>
+    <section class="sec-2">
+        <div class="container">
+<img src="https://www.vielhuber.net/.cm4all/uproc.php/0/_Design2020/Content/.Immo_WEG_01.png/picture-200?_=1764305eed8" alt="">
+<div class="inner">
+<h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, corrupti est. Quos, quaerat tempore. Aut, exercitationem vitae. Repudiandae, temporibus et!</p>
+<button class="but">Read More</button>
+</div>
+</div>
+<div class="container">
+    <img src="https://3042464.fs1.hubspotusercontent-na1.net/hub/3042464/hubfs/Imported_Blog_Media/computerdesk_original_opt_bw-Sep-29-2020-03-00-42-14-PM.jpg?width=528&height=528&name=computerdesk_original_opt_bw-Sep-29-2020-03-00-42-14-PM.jpg" alt="">
+    <div class="inner">
+    <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, corrupti est. Quos, quaerat tempore. Aut, exercitationem vitae. Repudiandae, temporibus et!</p>
+    <button class="but">Read More</button>
+    </div>
+    </div>
+    <div class="container">
+        <img src="https://www.bluehost.com/blog/wp-content/uploads/2021/11/Live-Website-Editing-404x270.jpg" alt="">
+        <div class="inner">
+        <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, corrupti est. Quos, quaerat tempore. Aut, exercitationem vitae. Repudiandae, temporibus et!</p>
+        <button class="but">Read More</button>
+        </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

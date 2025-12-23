@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatibl" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            position: fixed;
+            width: 100%;
+        }
+
+        li:hover {
+            background-color: lightskyblue;
+        }
+
+        .un-list {
+            display: flex;
+            justify-content: space-between;
+            background-color: darkblue;
+        }
+
+        .un-list li {
+            padding: 20px;
+            border-right: 2px solid black;
+            color: white;
+            list-style-type: none;
+            transition: 0.3s;
+        }
+
+        .sec-2 {
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(246, 241, 241);
+        }
+
+        header {
+            background-color: lightcyan;
+            height: 75px;
+        }
+
+        .divation {
+            width: 600px;
+            padding: 100px;
+
+        }
+
+        .divation h1 {
+            color: lightskyblue;
+            font-size: 65px;
+            text-transform: capitalize;
+        }
+
+        .divation p {
+            color: gray;
+            margin: 20px 0;
+        }
+
+        .divation input {
+            height: 40px;
+        }
+
+        .but{
+            padding: 10px 15px;
+            background-color: lightskyblue;
+            color: white;
+            text-transform: uppercase;
+            border: none;
+        }
+
+        .divation a {
+            text-decoration-color: lightskyblue;
+            color: lightskyblue;
+        }
+
+        .duv{
+            background-color: darkblue;
+            width: 400px;
+          border-bottom: 10px solid lightskyblue;
+           display: flex;
+            padding: 25px;
+          /*men burda niye background color-u yazanda onda o ancaq 1-rici dive tetbiq edir onda */
+
+        }
+        .sec-3{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 10px;
+        }
+        .duv {
+            color: white;
+        }
+        .duv p {
+            font-size: 20px;
+            color: gray;
+        }
+        
+        .duv h1 {
+            font-family: sans-serif;
+            text-transform: capitalize;
+        }
+        .inner{
+            background-color: lightblue;
+       padding: 30px;
+       margin-right: 10px;
+         border-radius: 50%;
+      
+        }
+        .con{
+margin: 30px;
+width: 350px;
+        }
+        .con h2{
+           font-family: sans-serif;
+           text-transform: capitalize;
+           color: rgb(162, 158, 158);
+
+        }
+        .con li::marker{
+    color:lightskyblue ;
+
+        }
+        .con li{
+            padding: 10px 20px;
+        }
+        .con p{
+            text-align: justify;
+            color: gray;
+        }
+        .sec-4{
+            display: flex;
+            justify-content: space-around;
+        }
+        
+    
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="un-list">
+                <li style="padding: 0;"> <img
+                        src="https://png.pngtree.com/png-clipart/20230915/original/pngtree-thin-line-house-icon-isolated-on-white-background-vector-png-image_12222347.png"
+                        alt="" width="50px" height="100%"></li>
+                <li> Lorem, ipsum.</li>
+                <li> Lorem, ipsum.</li>
+                <li> Lorem, ipsum.</li>
+                <li> Lorem, ipsum.</li>
+                <li> Lorem, ipsum.</li>
+                <li> Lorem, ipsum.</li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section class="sec-2">
+            <div class="div-1">
+                <img src="https://media.istockphoto.com/id/522246585/photo/happy-successful-man-working-on-laptop.jpg?s=612x612&w=0&k=20&c=YWYGbpG6oiteU9y-eMhlB2DyCOfVg56l4Do1NGPrVd8="
+                    alt="" width="400px">
+            </div>
+            <div class="divation">
+                <h1>start here!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, expedita?</p>
+                <input type="search" name="search" id="search" placeholder="Enter Domain">
+                <button class="but">search</button>
+                <p>Search for <a href="#">Multiple Domain </a>names</p>
+
+            </div>
+        </section>
+        <section class="sec-3">
+            <div class="duv">
+                <div class="inner">
+                    <span>$</span>
+                    14 <sup>.99</sup>
+                    <p>month</p>
+                </div>
+                <div class="inner-2">
+                    <h1>bronze</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, molestias.</p>
+                </div>
+            </div>
+            <div class="duv">
+                <div class="inner">
+                    <span>$</span>
+                    16 <sup>.99</sup>
+                    <p>month</p>
+                </div>
+                <div class="inner-2">
+                    <h1>silver</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, molestias.</p>
+                </div>
+            </div>
+            <div class="duv">
+                <div class="inner">
+                    <span>$</span>
+                    18 <sup>.99</sup>
+                    <p>month</p>
+                </div>
+                <div class="inner-2">
+                    <h1>Golden</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, molestias.</p>
+                </div>
+            </div>
+        </section>
+        <section class="sec-4">
+            <div class="con">
+                <h2>web hosting</h2>
+                <ul class="uli">
+                    <li>MyBusiness Site</li>
+                    <li> Lorem.</li>
+                    <li>Lorem.</li>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias tenetur maiores sit voluptatibus dolorum excepturi soluta ullam tempore cupiditate sapiente saepe blanditiis sint eum dolorem iure, veniam doloribus similique at.</p>
+                    <button class="but" style="margin-left: 200px;margin-top: 10px;">shop now</button>
+
+                </ul>
+            </div>
+            <div class="con">
+                <h2>web hosting</h2>
+                <ul class="uli">
+                    <li>MyBusiness Site</li>
+                    <li> Lorem.</li>
+                    <li>Lorem.</li>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias tenetur maiores sit voluptatibus dolorum excepturi soluta ullam tempore cupiditate sapiente saepe blanditiis sint eum dolorem iure, veniam doloribus similique at.</p>
+                    <button class="but" style="margin-left: 200px;margin-top: 10px;">shop now</button>
+
+                </ul>
+            </div>
+            <div class="con">
+                <h2>web hosting</h2>
+                <ul class="uli">
+                    <li>MyBusiness Site</li>
+                    <li> Lorem.</li>
+                    <li>Lorem.</li>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias tenetur maiores sit voluptatibus dolorum excepturi soluta ullam tempore cupiditate sapiente saepe blanditiis sint eum dolorem iure, veniam doloribus similique at.</p>
+                    <button class="but" style="margin-left: 200px;margin-top: 10px;">shop now</button>
+
+                </ul>
+            </div>
+            <div class="con">
+                <h2>web hosting</h2>
+                <ul class="uli">
+                    <li>MyBusiness Site</li>
+                    <li> Lorem.</li>
+                    <li>Lorem.</li>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias tenetur maiores sit voluptatibus dolorum excepturi soluta ullam tempore cupiditate sapiente saepe blanditiis sint eum dolorem iure, veniam doloribus similique at.</p>
+                    <button class="but" style="margin-left: 200px;margin-top: 10px;">shop now</button>
+
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/943d87bd3c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

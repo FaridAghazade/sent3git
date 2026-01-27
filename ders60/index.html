@@ -1,182 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        nav{
+        nav {
             display: flex;
             align-items: center;
             justify-content: space-between;
         }
-        ul{
+
+        ul {
             display: flex;
             list-style-type: none;
         }
-        li{
+
+        li {
             padding: 20px;
         }
-        .con1{
-            background-color: blue;
-            width: 500px;
-            display: flex;
-            margin: 10px;
-        }
-        .inner1{
-            margin: 0 50px;
-        }
-        .inner1 span{
-            color: rgb(227, 184, 184);
-        }
-        td{
-            display: flex;
-        }
-        .di{
-            width: 40px;
-            height: 50px;
-            border: 2px solid gray;
-            position: relative;
-            left: 200px;
-            top: 40px;
-        }
-        .trr{
-            background-color: orangered;
-            height: 30px;
-            display: flex;
-            justify-content: space-around;  
-        }
-        th{
-            color: white;
-        }
-       
-        
-        table{
-            width: 100%;
-        }
-        select{
-            height: 50px;
-            width: 50px;
-            width: 40px;
-            height: 50px;
-            border: 2px solid gray;
-            position: relative;
-            left: 200px;
-            top: 40px;
-        }
-        .par{
-            position: relative;
-            left: 680px;
-        }
-        .main{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            border-top: 4px solid darkred;
-            width:600px;
-            height: 300px;
-        }
-        .main-con{
-            display: flex;
-            justify-content: end;
-        }
-        .main div{
-            margin: 100px;
-        }
-        
-
-        
     </style>
 </head>
+
 <body>
     <nav>
-        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSyQgxVCPW4nDLrglAghbVEACIDe__HP9H7fV72diZ_uVbdx9nO" alt="" width="100px" height="200px">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSyQgxVCPW4nDLrglAghbVEACIDe__HP9H7fV72diZ_uVbdx9nO"
+            alt="" width="100px" height="200px">
         <ul>
-        <li>Home</li>
-        <li>Products</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Account</li>
-        <img src="https://www.shutterstock.com/image-vector/shopping-bag-icon-item-purchase-260nw-2370760461.jpg" alt="" width="50px" height="50px">
-    </ul>
+            <li>Home</li>
+            <li>Products</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Account</li>
+            <img src="https://www.shutterstock.com/image-vector/shopping-bag-icon-item-purchase-260nw-2370760461.jpg"
+                alt="" width="50px" height="50px">
+        </ul>
     </nav>
-    <table>
-        <tr class="trr">
-            
-        <th >Product </th>
-       <th>Quantity</th> 
-        <th>Subtotal</th>
-    </tr>
-    <tr class="d">
-        <td>
-            <div class="con1">
-                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEZiPkAKeRVF3gUVs5CKWRclB-CBEdGelYvQIAHjfQCpDdrRv9" alt="" width="100px">
-                <div class="inner1">
-                <h3>Red printed t-shirt</h3>
-                <p> Price: $50.00</p>
-                <span>Remove</span>
-                </div>
-            </div>
-            <select name="" id="">
-                <option value="1">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-            </select>
-            <p class="par">$50.00</p>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div class="con1">
-                <img src="https://beta.cdn.tajershops.com/resized/800_800/product_2025_04_1744098986-calaapoliamidasupremearmypretoc67240b1b7db86.webp" alt="" width="100px">
-                <div class="inner1">
-                <h3>Red printed t-shirt</h3>
-                <p> Price: $75.00</p>
-                <span>Remove</span>
-                </div>
-            </div>
-            <select name="" id="">
-                <option value="1">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-            </select>
-            <p class="par">$75.00</p>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div class="con1">
-                <img src="https://imagescdn.vanheusenindia.com/img/app/product/6/668572-14135345.jpg" alt="" width="100px">
-                <div class="inner1">
-                <h3>Red printed t-shirt</h3>
-                <p> Price: $75.00</p>
-                <span>Remove</span>
-                </div>
-            </div>
-           
-               <select name="" id="">
-                <option value="1">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-            </select> 
-          <p class="par">$75.00</p>
-        </td>
-    </tr>
-    </table>
-    <div class="main-con">
-    <div class="main">
-        <div>
-        <p>Subtotal</p>
-        <p>Tax</p>
-        <p>Total</p>
-     </div>
-     <div>
-        <p>$200.00</p>
-        <p>$35.00</p>
-        <p>$235.00</p>
-     </div>
-            
-    </div>
-    </div>
-</body>
-</html>
